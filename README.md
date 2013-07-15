@@ -5,20 +5,12 @@ Trying to complete all projects from [Martyr2’s Mega Project List](http://www.
 
 **Note**: If you fork this repo to solve these projects in any language of your choice, please remove all my code, and start from scratch; you'll benefit a lot. Do ***not*** send pull requests.
 
-Some details:
-
-* I will use Python to solve these. Why? Because I want to learn the language quickly.
-* I have no interest in making games, so I'm excluding those from the list below.
-* I'm not interested in networking, so I *might* skip all (or some) of them.
-* The projects will not be made in the order posted.
-* I may not be able to complete all of them. 
-* My method of solving them may not be the best.
-
-I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
-
 To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://github.com/thekarangoel/Projects/blob/master/README-scratch.md) to *README.md*.
 
-**Note**: I have't read any problem while creating this repo. I'll read them as I start solving the problems. Hence, there is no prior filtering of problems. Keeps things spicy. :)
+Projects will be ~~striked out~~ as they are completed.
+
+Status: 2 / 129
+----------------
 
 ==============================
 

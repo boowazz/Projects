@@ -1,12 +1,12 @@
 #   1 1 2 3 5 8 13 21  <-- here because it's 2am, and I can't brain.
 
-"""Status update: aww shiiet. This doesn't technically solve the problem 
-(*sequence* not just Nth element) and more significantly: this runs GOD FUCKING 
-SLOW at large values of n. O(2^n) slow. So yeah, that might need fixing."""
+from math import *
+
 
 def main(n):
     try:
-        print fib(int(n))
+        for i in range(0,int(n)):
+            print fib(int(i)),
 
     
     except ValueError:
@@ -16,12 +16,21 @@ def main(n):
 
 
 def fib(n):
+    return int(((1+sqrt(5))**n-(1-sqrt(5))**n)/(2**n*sqrt(5)))
+
+
+'''
+Recursive attempt, but damn slow. O(2^n) slow.
+
+def fib(n):
         print n
         if(n == 0):
             return 0
         if(n == 1):
             return 1
         return fib(n-1) + fib(n-2)
+'''
+
 
 main(raw_input("""
 

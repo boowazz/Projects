@@ -9,7 +9,7 @@ To get started, fork this repo, delete this README and rename [*README-scratch.m
 
 Projects will be ~~striked out~~ as they are completed.
 
-Status: 3 / 129
+Status: 6 / 129
 ----------------
 
 ==============================
@@ -19,7 +19,7 @@ Numbers
 
 ~~[**Find PI to the Nth Digit**](https://github.com/thekarangoel/Projects/blob/master/Numbers/pi.py) – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.~~
 
-[**Fibonacci Sequence**](https://github.com/thekarangoel/Projects/blob/master/Numbers/fibonacci.py) – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+~~[**Fibonacci Sequence**](https://github.com/thekarangoel/Projects/blob/master/Numbers/fibonacci.py) – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.~~
 
 [**Prime Factorization**](https://github.com/thekarangoel/Projects/blob/master/Numbers/prime.py) – Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
@@ -56,9 +56,9 @@ Text
 
 ~~[**Count Vowels**](https://github.com/thekarangoel/Projects/blob/master/Text/count_vowels.py) – Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.~~
 
-[**Check if Palindrome**](https://github.com/thekarangoel/Projects/blob/master/Text/palindrome.py) – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+~~[**Check if Palindrome**](https://github.com/thekarangoel/Projects/blob/master/Text/palindrome.py) – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”~~
 
-**Count Words in a String** – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+~~**Count Words in a String** – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.~~
 
 **Text Editor** – Notepad style application that can open, edit, and save text documents. Add syntax highlighting and other features.
 
@@ -82,9 +82,9 @@ Text
 
 **CD Key Generator** – Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
 
-**Regex Query Tool** – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
+**Regex Query Tool** – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
-Networking
+**NETWORKING**
 ---------
 
 **FTP Program** – A file transfer program which can transfer files back and forth from a remote web sever.
@@ -128,7 +128,7 @@ Classes
 
 **Student Grade Book Application** – Keep track of students (with a student class that has their name, average, and scores) in a class and their grades. Assign their scores on tests and assignments to the students and figure out their average and grade for the class. For added complexity put the students on a bell curve.
 
-**Bank Account Manager** \- Create a class called “Account” which will be an abstract class for three other classes called “CheckingAccount”, “SavingsAccount” and “BusinessAccount”. Manage credits and debits from these accounts through an ATM style program.
+**Bank Account Manager** Create a class called “Account” which will be an abstract class for three other classes called “CheckingAccount”, “SavingsAccount” and “BusinessAccount”. Manage credits and debits from these accounts through an ATM style program.
 
 **Library Catalog** – Create a book class with a title, page count, ISBN and whether or not it is checked out or not. Manage a collection of various books and allow the user to check out books or return books. For added complexity generate a report of those books overdue and any fees. Also allow users to put books on reserve.
 

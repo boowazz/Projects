@@ -6,7 +6,7 @@ from math import *
 def main(n):
     try:
         for i in range(0,int(n)):
-            print fib(int(i)),
+            print fib(int(i)), #comma on the end to add space.
 
     
     except ValueError:
@@ -17,7 +17,8 @@ def main(n):
 
 def fib(n):
     return int(((1+sqrt(5))**n-(1-sqrt(5))**n)/(2**n*sqrt(5)))
-
+    #formula for calculating nth fibonacci number - source:
+    # wolfram alpha
 
 '''
 Recursive attempt, but damn slow. O(2^n) slow.
